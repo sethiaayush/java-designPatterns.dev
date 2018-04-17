@@ -66,4 +66,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<packaging>pom</packaging>
+	<modules>
+		<module>singleton</module>
+	</modules>
 </project>
