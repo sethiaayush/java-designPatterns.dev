@@ -1,1 +1,1 @@
-"# java.designPatterns.dev" 
+"# java-designPatterns.dev" 
