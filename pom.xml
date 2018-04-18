@@ -70,5 +70,6 @@
 	<modules>
 		<module>singleton</module>
 		<module>repository</module>
+		<module>unitOfWork</module>
 	</modules>
 </project>
