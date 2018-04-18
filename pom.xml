@@ -69,5 +69,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>singleton</module>
+		<module>repository</module>
 	</modules>
 </project>
