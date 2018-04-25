@@ -21,3 +21,13 @@ The real object is only created when a client first requests/accesses the object
  The "surrogate" object checks that the caller has the access permissions required prior to forwarding the request.
 
 4) A smart proxy interposes additional actions when an object is accessed.
+
+Nice Blog Link to refer : http://www.oodesign.com/proxy-pattern.html
+
+Specific problems and implementation
+
+Java Remote Method Invocation (RMI)
+In java RMI an object on one machine (executing in one JVM) called a client can invoke methods on an object in another machine (another JVM) the second object is called a remote object. 
+The proxy (also called a stub) resides on the client machine and the client invokes the proxy in as if it is invoking the object itself (remember that the proxy implements the same interface that RealSubject implements). 
+The proxy itself will handle communication to the remote object, invoke the method on that remote object, and would return the result if any to the client. 
+The proxy in this case is a Remote proxy.
