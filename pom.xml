@@ -69,5 +69,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>singleton</module>
+		<module>repository</module>
+		<module>unitOfWork</module>
+		<module>proxy</module>
 	</modules>
 </project>
