@@ -73,5 +73,6 @@
 		<module>unitOfWork</module>
 		<module>proxy</module>
     <module>factory</module>
+    <module>factory-method</module>
   </modules>
 </project>
