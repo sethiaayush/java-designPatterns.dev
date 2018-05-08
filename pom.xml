@@ -74,5 +74,6 @@
 		<module>proxy</module>
     <module>factory</module>
     <module>factory-method</module>
+    <module>abstract-factory</module>
   </modules>
 </project>
