@@ -2,9 +2,13 @@ package facade;
 
 import java.sql.Connection;
 
-public class App {
+import org.junit.Test;
+
+public class FacadePatternTest {
 	
-	public static void main(String[] args) {
+	@Test
+	public void testThePattern() {
+
 		String tableName = "Employee";
 
 		// generating MySql HTML report and Oracle PDF report without using
@@ -20,5 +24,6 @@ public class App {
 		// generating MySql HTML report and Oracle PDF report using Facade
 		HelperFacade.generateReport(DBTypes.MYSQL, ReportTypes.HTML, tableName);
 		HelperFacade.generateReport(DBTypes.ORACLE, ReportTypes.PDF, tableName);
+	
 	}
 }
