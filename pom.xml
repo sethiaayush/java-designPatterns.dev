@@ -79,9 +79,13 @@
 		<module>repository</module>
 		<module>unitOfWork</module>
 		<module>proxy</module>
-		<module>factory</module>
-		<module>factory-method</module>
-		<module>abstract-factory</module>
-		<module>decorator</module>
-	</modules>
+    <module>decorator</module>
+    <module>factory</module>
+    <module>factory-method</module>
+    <module>abstract-factory</module>
+    <module>mediator</module>
+    <module>facade</module>
+    <module>adapter</module>
+    <module>observer</module>
+  </modules>
 </project>
