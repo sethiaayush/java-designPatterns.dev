@@ -87,5 +87,6 @@
     <module>adapter</module>
     <module>observer</module>
     <module>prototype</module>
+    <module>builder</module>
   </modules>
 </project>
