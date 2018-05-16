@@ -89,5 +89,6 @@
     <module>prototype</module>
     <module>builder</module>
     <module>objectPool</module>
+    <module>nullObject</module>
   </modules>
 </project>
