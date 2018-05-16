@@ -88,5 +88,6 @@
     <module>observer</module>
     <module>prototype</module>
     <module>builder</module>
+    <module>objectPool</module>
   </modules>
 </project>
