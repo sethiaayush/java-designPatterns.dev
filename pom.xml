@@ -102,5 +102,6 @@
 		<module>command</module>
     <module>interpreter</module>
     <module>iterator</module>
+    <module>memento</module>
   </modules>
 </project>
