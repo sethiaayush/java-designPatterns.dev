@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sethi.aayush</groupId>
 	<artifactId>java-designPattern.dev</artifactId>
@@ -16,6 +17,7 @@
 		<java.compile.source>1.8</java.compile.source>
 		<java.compile.target>1.8</java.compile.target>
 		<mockito.version>1.10.19</mockito.version>
+		<slf4j.version>1.7.21</slf4j.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -59,6 +61,11 @@
 			<version>${mockito.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -78,19 +85,21 @@
 		<module>repository</module>
 		<module>unitOfWork</module>
 		<module>proxy</module>
-    <module>decorator</module>
-    <module>factory</module>
-    <module>factory-method</module>
-    <module>abstract-factory</module>
-    <module>mediator</module>
-    <module>facade</module>
-    <module>adapter</module>
-    <module>observer</module>
-    <module>prototype</module>
-    <module>builder</module>
-    <module>objectPool</module>
-    <module>nullObject</module>
-    <module>templateMethod</module>
-    <module>strategy</module>
-  </modules>
+		<module>decorator</module>
+		<module>factory</module>
+		<module>factory-method</module>
+		<module>abstract-factory</module>
+		<module>mediator</module>
+		<module>facade</module>
+		<module>adapter</module>
+		<module>observer</module>
+		<module>prototype</module>
+		<module>builder</module>
+		<module>objectPool</module>
+		<module>nullObject</module>
+		<module>templateMethod</module>
+		<module>strategy</module>
+		<module>chainOfResponsibility</module>
+		<module>command</module>
+	</modules>
 </project>
