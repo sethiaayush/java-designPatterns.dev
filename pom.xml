@@ -103,5 +103,9 @@
     <module>interpreter</module>
     <module>iterator</module>
     <module>memento</module>
+    <module>bridge</module>
+    <module>composite</module>
+    <module>flyweight</module>
+    <module>visitor</module>
   </modules>
 </project>
