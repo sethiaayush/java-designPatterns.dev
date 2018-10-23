@@ -12,10 +12,7 @@ public enum EnumAirTrafficController {
 	 * Eagerly initialized Singleton is enum based Singleton. At first glance
 	 * the code looks short and simple. However, you should be aware of the
 	 * downsides including committing to implementation strategy, extending the
-	 * enum class, serializability and restrictions to coding. These are
-	 * extensively discussed in Stack Overflow:
-	 * http://programmers.stackexchange.com/questions/179386/what-are-the-
-	 * downsides-of-implementing -a-singleton-with-javas-enum
+	 * enum class, serializability and restrictions to coding.
 	 */
 	INSTANCE;
 
