@@ -100,12 +100,17 @@
 		<module>strategy</module>
 		<module>chainOfResponsibility</module>
 		<module>command</module>
-    <module>interpreter</module>
-    <module>iterator</module>
-    <module>memento</module>
-    <module>bridge</module>
-    <module>composite</module>
-    <module>flyweight</module>
-    <module>visitor</module>
+		<module>interpreter</module>
+		<module>iterator</module>
+		<module>memento</module>
+		<module>bridge</module>
+		<module>composite</module>
+		<module>flyweight</module>
+		<module>visitor</module>
+		<module>openClosePrinciple</module>
+    <module>dependencyInversionPrinciple</module>
+    <module>interfaceSegregationPrinciple</module>
+    <module>liskovsSubstitutionPrinciple</module>
+    <module>singleResponsibilityPrinciple</module>
   </modules>
 </project>
