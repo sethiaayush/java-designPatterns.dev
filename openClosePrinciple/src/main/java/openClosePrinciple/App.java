@@ -1,4 +1,4 @@
-package org.openClosePrinciple;
+package openClosePrinciple;
 
 /**
  * Hello world!

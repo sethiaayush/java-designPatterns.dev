@@ -1,4 +1,4 @@
-package org.dependencyInversionPrinciple;
+package openClosePrinciple;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

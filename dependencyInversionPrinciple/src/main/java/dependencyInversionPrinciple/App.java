@@ -1,4 +1,4 @@
-package org.dependencyInversionPrinciple;
+package dependencyInversionPrinciple;
 
 /**
  * Hello world!
